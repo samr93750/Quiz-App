@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url("./quiz.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  padding: 1vw 3vw 0;
+  height: 5vw;
+  color: white;
+  opacity: 0.75;
+  background-color: black;
+}
+
+.flex div img {
+  width: 30px;
+  height: 30px;
+}
+
+.app {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  max-width: 100%;
+  margin: 4vw 25vw 0vw;
+  border-radius: 10px;
+  padding: 2vw 4vw 0;
+}
+
+.app h1 {
+  font: 3vw;
+  color: rgb(150, 146, 146);
+  font-weight: 6vw;
+  border-bottom: 1px solid #333;
+  padding-bottom: 1vw;
+}
+
+.quiz {
+  padding: 2vw 0;
+}
+
+.quiz h2 {
+  font-size: 1.5vw;
+  color: rgb(220, 219, 219);
+  font-weight: 6vw;
+}
+
+.btn {
+  background: #353536;
+  color: white;
+  font-weight: 5vw;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  box-shadow: #333;
+}
+
+.btn:hover:not([disabled]) {
+  background: rgb(68, 248, 134);
+  color: black;
+}
+
+btn:disabled {
+  cursor: no-drop;
+}
+
+.submitbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nextbtn {
+  background-color: #d33809;
+  opacity: 0.8;
+  color: white;
+  font-weight: 10vw;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 10px;
+  margin: 10px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+
+#nextbtn:hover{
+    opacity: 1;
+}
+
+.playagainbtn{
+   background-color: #d33809;
+  color: white;
+  opacity: 0.8;
+  font-weight: 10vw;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 10px;
+  margin: 20px 10vw 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+#playagainbtn:hover{
+    opacity: 1;
+}
+
+#quitbtn {
+  background-color: #de2121;
+  opacity: 0.8;
+  color: white;
+  font-weight: 10vw;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 10px;
+  margin: 10px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+
+#quitbtn:hover{
+    opacity: 1;
+}
+
+.correct {
+  background: rgb(84, 229, 137);
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .app {
+    margin: 10vw 10vw 20vw;
+    padding: 1vw 2vw 0;
+  }
+  .flex {
+    height: 7vw;
+  }
+  .quiz h2 {
+    font-size: 3vw;
+  }
+  .submitbtn{
+display: inline;
+  }
+}

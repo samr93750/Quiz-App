@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Link to the icon -->
+    <link rel="icon" href="./question.png" type="image/png">
+    
+    <!-- Page Title -->
+    <title>Quiz App</title>
+</head>
+<body>
+    <!-- Header section -->
+    <div class="flex">
+        <!-- Icon -->
+        <div><img src="./question.png" alt="question icon"></div>
+        <!-- Title -->
+        <div><h4>Simple Quiz</h4></div>
+    </div>
+    
+    <!-- Main content -->
+    <div class="app">
+        <!-- Main Heading -->
+        <h1>Simple Quiz</h1>
+        
+        <!-- Quiz section -->
+        <div class="quiz">
+            <!-- Question -->
+            <h2 id="question">question goes here</h2>
+            
+            <!-- Answer buttons -->
+            <div id="answer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+            
+            <!-- Next and Quit buttons -->
+            <div class="submitbtn">
+                <button id="nextbtn"></button>
+                <button id="quitbtn"></button>
+                <div id="playagainbtn"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>
