@@ -396,7 +396,7 @@ function shuffleArray(array) {
 
 // Event listener for the quit button
 quitButton.addEventListener("click", () => {
-  showScore(currentQuestionIndex);
+  showScore(currentQuestionIndex+1);
 });
 
 // Shuffle the questions array before starting the quiz
