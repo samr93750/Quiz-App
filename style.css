@@ -160,15 +160,15 @@ btn:disabled {
 
 @media screen and (max-width: 700px) {
   .app {
-    margin: 10vw 10vw 0vw;
-    padding: 3vw 7vw 2vw;
-    height: 455px;
+    margin: 10vw 5vw 0vw;
+    padding: 7vw 5vw 2vw;
+    height: 480px;
   }
   .playagainbtn {
     margin: 40px auto 0;
   }
   .quiz h2{
-    font-size: 4vw;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 
