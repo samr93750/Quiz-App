@@ -134,6 +134,8 @@ btn:disabled {
 
 #quitbtn {
   background-color: #de2121;
+  /* background: #353536; */
+
   opacity: 0.8;
   color: white;
   font-weight: 10vw;
@@ -158,7 +160,7 @@ btn:disabled {
 
 @media screen and (max-width: 700px) {
   .app {
-    margin: 5vw 10vw 0vw;
+    margin: 10vw 10vw 0vw;
     padding: 3vw 7vw 2vw;
     height: 455px;
   }
@@ -166,7 +168,7 @@ btn:disabled {
     margin: 40px auto 0;
   }
   .quiz h2{
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 10px;
   }
 

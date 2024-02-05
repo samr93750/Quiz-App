@@ -353,7 +353,7 @@ function selectAnswer(e) {
 // Function to display the final score
 function showScore(currentQuestionIndex) {
   resetState();
-  questionElement.innerHTML = `You scored ${score} out of ${currentQuestionIndex}!!`;
+  questionElement.innerHTML = `You scored ${score} out of ${currentQuestionIndex}  !!!`;
   document.getElementById("playagainbtn").appendChild(playAgainButton);
   playAgainButton.classList.add("playagainbtn");
   playAgainButton.innerHTML = "play again";
