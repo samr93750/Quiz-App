@@ -60,7 +60,7 @@ body {
 }
 
 .quiz h2 {
-  font-size: 3vw;
+  font-size: 1.5vw;
   color: rgb(220, 219, 219);
   font-weight: 6vw;
 }
@@ -166,6 +166,7 @@ btn:disabled {
     margin: 40px auto 0;
   }
   .quiz h2{
+    font-size: 3vw;
     margin-bottom: 10px;
   }
 
