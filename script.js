@@ -18,6 +18,7 @@ const questions = [
       { text: "Leonardo da Vinci ", correct: true },
     ],
   },
+  
   {
     question: "What is the capital city of Australia?",
     answers: [

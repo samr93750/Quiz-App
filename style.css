@@ -162,8 +162,9 @@ btn:disabled {
   .app {
     margin: 10vw 5vw 0vw;
     padding: 7vw 5vw 2vw;
-    height: 480px;
+    height: 490px;
   }
+  
   .playagainbtn {
     margin: 40px auto 0;
   }
