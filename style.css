@@ -5,11 +5,12 @@
   box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
   height: 100%;
   width: 100%;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -59,7 +60,7 @@ body {
 }
 
 .quiz h2 {
-  font-size: 1.5vw;
+  font-size: 3vw;
   color: rgb(220, 219, 219);
   font-weight: 6vw;
 }
@@ -109,12 +110,12 @@ btn:disabled {
   display: block;
 }
 
-#nextbtn:hover{
-    opacity: 1;
+#nextbtn:hover {
+  opacity: 1;
 }
 
-.playagainbtn{
-   background-color: #d33809;
+.playagainbtn {
+  background-color: #d33809;
   color: white;
   opacity: 0.8;
   font-weight: 10vw;
@@ -127,8 +128,8 @@ btn:disabled {
   cursor: pointer;
   display: block;
 }
-#playagainbtn:hover{
-    opacity: 1;
+#playagainbtn:hover {
+  opacity: 1;
 }
 
 #quitbtn {
@@ -146,8 +147,8 @@ btn:disabled {
   display: block;
 }
 
-#quitbtn:hover{
-    opacity: 1;
+#quitbtn:hover {
+  opacity: 1;
 }
 
 .correct {
@@ -159,14 +160,20 @@ btn:disabled {
   .app {
     margin: 5vw 10vw 0vw;
     padding: 3vw 7vw 2vw;
+    height: 455px;
   }
+  .playagainbtn {
+    margin: 40px auto 0;
+  }
+  .quiz h2{
+    margin-bottom: 10px;
+  }
+
   .flex {
     height: 7vw;
   }
-  .quiz h2 {
-    font-size: 3vw;
-  }
-  .submitbtn{
-display: inline;
+
+  .submitbtn {
+    display: inline;
   }
 }
