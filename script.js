@@ -275,6 +275,252 @@ const questions = [
     ],
   },
 ];
+// const codingquestions = [
+//   {
+//     question: "In HTML, what does the 'href' attribute specify?",
+//     answers: [
+//       { text: "The type of HTML element", correct: false },
+//       { text: "The color of the text", correct: false },
+//       {
+//         text: " The location of the linked document or resource",
+//         correct: true,
+//       },
+//       { text: "The alignment of the element on the page", correct: false },
+//     ],
+//   },
+//   {
+//     question: "Which of the following is NOT a valid CSS selector?",
+//     answers: [
+//       { text: "class-name", correct: false },
+//       { text: "  #id-name", correct: false },
+//       { text: " @attribute", correct: true },
+//       { text: " element-name", correct: false },
+//     ],
+//   },
+//   {
+//     question:
+//       " What is the purpose of the 'document.getElementById()' method in JavaScript?",
+//     answers: [
+//       {
+//         text: "It retrieves the value of an element's attribute.",
+//         correct: true,
+//       },
+//       {
+//         text: " It selects an HTML element based on its class name.",
+//         correct: false,
+//       },
+//       {
+//         text: " It retrieves an HTML element from the DOM by its ID.",
+//         correct: false,
+//       },
+//       {
+//         text: " It creates a new HTML element and appends it to the document.",
+//         correct: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: "What does the CSS property 'display: none;' do?",
+//     answers: [
+//       {
+//         text: "It hides an element from view without affecting layout.",
+//         correct: true,
+//       },
+//       {
+//         text: " It changes the font size of the text within an element.",
+//         correct: false,
+//       },
+//       { text: " It removes the border from an element.", correct: false },
+//       {
+//         text: "It aligns an element to the center of its container.",
+//         correct: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: "In JavaScript, what does the 'addEventListener()' method do?",
+//     answers: [
+//       {
+//         text: " It sets a timer to execute a function after a specified delay.",
+//         correct: false,
+//       },
+//       {
+//         text: "It adds an event listener to an HTML element, allowing it to respond to specific events.",
+//         correct: true,
+//       },
+//       {
+//         text: "It checks if a variable is equal to a specific value.",
+//         correct: false,
+//       },
+//       { text: " It concatenates two strings together.", correct: false },
+//     ],
+//   },
+//   {
+//     question: "What is the purpose of the " < script > " tag in HTML?",
+//     answers: [
+//       {
+//         text: "It defines a section of text that should be displayed as code.",
+//         correct: false,
+//       },
+//       {
+//         text: "It includes an external CSS stylesheet in an HTML document.",
+//         correct: false,
+//       },
+//       {
+//         text: "It imports JavaScript code into an HTML document.",
+//         correct: true ,
+//       },
+//       { text: "It creates a hyperlink to another web page.", correct: false },
+//     ],
+//   },
+//   {
+//     question: "Which CSS property is used to change the color of text?",
+//     answers: [
+//       { text: " background-color", correct: false },
+//       { text: "font-weight", correct: false },
+//       { text: " color", correct: true },
+//       { text: " text-decoration", correct: false },
+//     ],
+//   },
+//   {
+//     question: " What is the purpose of the 'float' property in CSS?",
+//     answers: [
+//       { text: " It aligns text within an element.", correct: false },
+//       { text: " It creates space between elements.", correct: false },
+//       {
+//         text: " It positions an element to the left or right of its container, allowing content to flow around it.",
+//         correct: true,
+//       },
+//       {
+//         text: "  It hides an element from view without affecting layout.",
+//         correct: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: "What does the JavaScript 'parseInt()' function do?",
+//     answers: [
+//       { text: " It converts a string to an integer.", correct: true },
+//       {
+//         text: " It rounds a floating-point number to the nearest integer.",
+//         correct: fase,
+//       },
+//       { text: "  It returns the length of a string.", correct: false },
+//       { text: " It converts a number to a string.", correct: false },
+//     ],
+//   },
+//   {
+//     question: " Which HTML tag is used to create a hyperlink?",
+//     answers: [
+//       { text: " <a>", correct: true },
+//       { text: "  <link>", correct: fase },
+//       { text: " <h1>", correct: false },
+//       { text: "  <p>", correct: false },
+//     ],
+//   },
+//   {
+//     question: "What is JSX in the context of React.js?",
+//     answers: [
+//       {
+//         text: "A JavaScript library for building user interfaces.",
+//         correct: false,
+//       },
+//       {
+//         text: "A syntax extension that allows writing HTML-like code within JavaScript.",
+//         correct: true,
+//       },
+//       {
+//         text: "A package manager used for installing React components.",
+//         correct: false,
+//       },
+//       {
+//         text: "A build tool for optimizing React applications.",
+//         correct: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: " In React.js, what does the 'state' represent?",
+//     answers: [
+//       {
+//         text: " The data passed down from parent to child components.",
+//         correct: false,
+//       },
+//       { text: " The properties of a React component.", correct: false },
+//       {
+//         text: " The internal data of a component that can change over time.",
+//         correct: true,
+//       },
+//       { text: " The lifecycle methods of a component.", correct: false },
+//     ],
+//   },
+//   {
+//     question: "What is the purpose of the 'useState' hook in React?",
+//     answers: [
+//       {
+//         text: " It imports external libraries into a React component.",
+//         correct: false,
+//       },
+//       {
+//         text: "  It updates the state of a functional component.",
+//         correct: true,
+//       },
+//       {
+//         text: " It defines a route for client-side routing in a React application.",
+//         correct: false,
+//       },
+//       {
+//         text: " It triggers an effect to be executed after rendering.",
+//         correct: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: " What does the 'this' keyword refer to in JavaScript?",
+//     answers: [
+//       { text: " The current iteration of a loop.", correct: false },
+//       { text: " The parent element of a nested HTML element.", correct: false },
+//       {
+//         text: "The context within which a function is executed.",
+//         correct: true,
+//       },
+//       {
+//         text: "The name of a variable holding a reference to a DOM element.",
+//         correct: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: "What is a closure in JavaScript?",
+//     answers: [
+//       { text: " A built-in function for sorting arrays.", correct: false },
+//       {
+//         text: " A method for accessing variables from outside their scope.",
+//         correct: false,
+//       },
+//       {
+//         text: " A way to protect data from being modified by other functions.",
+//         correct: false,
+//       },
+//       {
+//         text: " A combination of a function and the lexical environment within which that function was declared.",
+//         correct: true,      },
+//     ],
+//   },
+//   {
+//     question: "What does the spread syntax (...) do in JavaScript?",
+//     answers: [
+//       { text: "It combines two arrays into one.", correct: false },
+//       {
+//         text: "It allows an object to be expanded into multiple arguments.",
+//         correct: true,
+//       },
+//       { text: "It rounds a number to the nearest integer.", correct: false },
+//       { text: "It removes duplicates from an array.", correct: false },
+//     ],
+//   },
+// ];
+
 
 // Retrieving DOM elements
 
@@ -319,6 +565,7 @@ function showQuestion() {
     button.addEventListener("click", selectAnswer);
   });
 }
+
 
 // Function to reset the state of the quiz
 function resetState() {
