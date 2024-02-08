@@ -238,15 +238,15 @@ const questions = [
       { text: "Lhotse ", correct: false },
     ],
   },
-  {
-    question: "Which animal is known as the 'King of the Jungle' ?",
-    answers: [
-      { text: "Tiger ", correct: false },
-      { text: " Lion", correct: true },
-      { text: " Cheetah", correct: false },
-      { text: "Leopard ", correct: false },
-    ],
-  },
+  // {
+  //   question: "Which animal is known as the 'King of the Jungle' ?",
+  //   answers: [
+  //     { text: "Tiger ", correct: false },
+  //     { text: " Lion", correct: true },
+  //     { text: " Cheetah", correct: false },
+  //     { text: "Leopard ", correct: false },
+  //   ],
+  // },
   {
     question: " Who painted the ceiling of the Sistine Chapel?",
     answers: [
@@ -361,6 +361,7 @@ function showScore(currentQuestionIndex) {
   playAgainButton.style.display = "block";
 }
 
+
 // Function to handle the next button click
 function handleNextButton() {
   currentQuestionIndex++;
@@ -371,6 +372,7 @@ function handleNextButton() {
   }
 }
 
+
 // Event listener for the next button
 nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < questions.length) {
@@ -380,11 +382,15 @@ nextButton.addEventListener("click", () => {
   }
 });
 
+
 // Event listener for the play again button
 playAgainButton.addEventListener("click", () => {
   startQuiz();
+shuffleArray(questions);
+
   document.getElementById("playagainbtn").removeChild(playAgainButton);
 });
+
 
 // Function to shuffle array elements
 function shuffleArray(array) {
@@ -395,10 +401,12 @@ function shuffleArray(array) {
   return array;
 }
 
+
 // Event listener for the quit button
 quitButton.addEventListener("click", () => {
   showScore(currentQuestionIndex+1);
 });
+
 
 // Shuffle the questions array before starting the quiz
 shuffleArray(questions);

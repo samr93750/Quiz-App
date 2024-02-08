@@ -157,8 +157,34 @@ btn:disabled {
   background: rgb(84, 229, 137);
   color: black;
 }
+@media screen and (max-width: 800px) {
+ .app {
+    margin: 5vw 5vw 0vw;
+    padding: vw 5vw 2vw;
+    /* height: 490px; */
+  }
+    .playagainbtn {
+    margin: 40px auto 0;
+  }
+  .quiz h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-@media screen and (max-width: 700px) {
+  .flex {
+    height: 7vw;
+  }
+
+  .submitbtn {
+    display: inline;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
   .app {
     margin: 10vw 5vw 0vw;
     padding: 7vw 5vw 2vw;
