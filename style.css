@@ -42,7 +42,7 @@ body {
   border-radius: 20px;
   backdrop-filter: blur(15px);
   max-width: 100%;
-  margin: 4vw 25vw 0vw;
+  margin: 30px 280px 0vw;
   border-radius: 10px;
   padding: 2vw 4vw 0;
 }
@@ -68,7 +68,8 @@ body {
 .btn {
   background: #353536;
   color: white;
-  font-weight: 5vw;
+  font-weight: 500;
+  font-size:medium;
   width: 100%;
   border: 1px solid #222;
   padding: 10px;
@@ -82,7 +83,8 @@ body {
 }
 
 .btn:hover:not([disabled]) {
-  background: rgb(68, 248, 134);
+  background: rgb(115, 188, 142);
+
   color: black;
 }
 
@@ -96,8 +98,9 @@ btn:disabled {
 }
 
 #nextbtn {
+    /* background-color: black;
+  color: white; */
   background-color: white;
-  /* opacity: 0.8; */
   color: black;
   font-weight: 10vw;
   width: 150px;
@@ -111,17 +114,19 @@ btn:disabled {
 }
 
 #nextbtn:hover {
+   /* background-color: white;
+  color: black; */
    background-color: black;
-  /* opacity: 0.8; */
   color: white;
   opacity: 1;
 
 }
 
 .playagainbtn {
-  background-color: #d33809;
-  color: white;
-  /* opacity: 0.8; */
+  /* background-color: #d33809;*/
+  background: rgb(85, 215, 133); 
+opacity: 0.8;
+  color: black;
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -132,17 +137,15 @@ btn:disabled {
   cursor: pointer;
   display: block;
 }
-#playagainbtn:hover {
- 
-  opacity: 1;
+.playagainbtn:hover {
+opacity: 1;
 }
 
 #quitbtn {
   background-color: white;
-  /* background: #353536; */
-
-  /* opacity: 0.8; */
   color: black;
+    /* background-color: black;
+  color: white; */
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -155,8 +158,10 @@ btn:disabled {
 }
 
 #quitbtn:hover {
-  background-color: black;
+    background-color: black;
   color: white;
+  /* background-color: white;
+  color: black; */
   opacity: 1;
 }
 
@@ -166,9 +171,10 @@ btn:disabled {
 }
 .incorrect{
   background: #de2121;
+  opacity: 0.8;
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
  .app {
     margin: 5vw 5vw 0vw;
     padding: vw 5vw 2vw;
@@ -191,20 +197,30 @@ btn:disabled {
   }
 
 
-
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .btn {
+
+padding: 15px;
+  margin: 15px 0;
+
+  }
   .app {
     margin: 10vw 5vw 0vw;
     padding: 7vw 5vw 2vw;
-    height: 490px;
+    height: 600px;
+  }
+  #nextbtn{
+  margin: 15px auto 20px;
+
   }
   
   .playagainbtn {
     margin: 40px auto 0;
   }
+
   .quiz h2{
     font-size: 20px;
     margin-bottom: 10px;
