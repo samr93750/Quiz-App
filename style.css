@@ -96,9 +96,9 @@ btn:disabled {
 }
 
 #nextbtn {
-  background-color: #d33809;
-  opacity: 0.8;
-  color: white;
+  background-color: white;
+  /* opacity: 0.8; */
+  color: black;
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -111,13 +111,17 @@ btn:disabled {
 }
 
 #nextbtn:hover {
+   background-color: black;
+  /* opacity: 0.8; */
+  color: white;
   opacity: 1;
+
 }
 
 .playagainbtn {
   background-color: #d33809;
   color: white;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -129,15 +133,16 @@ btn:disabled {
   display: block;
 }
 #playagainbtn:hover {
+ 
   opacity: 1;
 }
 
 #quitbtn {
-  background-color: #de2121;
+  background-color: white;
   /* background: #353536; */
 
-  opacity: 0.8;
-  color: white;
+  /* opacity: 0.8; */
+  color: black;
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -150,12 +155,18 @@ btn:disabled {
 }
 
 #quitbtn:hover {
+  background-color: black;
+  color: white;
   opacity: 1;
 }
 
 .correct {
-  background: rgb(84, 229, 137);
+  background: rgb(115, 188, 142);
   color: black;
+}
+.incorrect{
+  background: #de2121;
+
 }
 @media screen and (max-width: 800px) {
  .app {
