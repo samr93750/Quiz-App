@@ -661,7 +661,7 @@ function showScore(currentQuestionIndex) {
   resetState();
   goodscore= currentQuestionIndex
   if (score >= goodscore){
-      questionElement.innerHTML = `Good job!!! You scored ${score} out of ${currentQuestionIndex}`;
+      questionElement.innerHTML = `Good job! You scored ${score} out of ${currentQuestionIndex}`;
       document.getElementById("playagainbtn").appendChild(playAgainButton);
       playAgainButton.classList.add("playagainbtn");
       playAgainButton.innerHTML = "play again";

@@ -98,10 +98,10 @@ btn:disabled {
 }
 
 #nextbtn {
-    background-color: black;
-  color: white;
-  /* background-color: white;
-  color: black; */
+    /* background-color: black;
+  color: white; */
+  background-color: white;
+  color: black;
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -114,10 +114,10 @@ btn:disabled {
 }
 
 #nextbtn:hover {
-   background-color: white;
-  color: black;
-   /* background-color: black;
-  color: white; */
+   /* background-color: white;
+  color: black; */
+   background-color: black;
+  color: white;
   opacity: 1;
 
 }
@@ -142,10 +142,10 @@ opacity: 1;
 }
 
 #quitbtn {
-  /* background-color: white;
-  color: black; */
-    background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+    /* background-color: black;
+  color: white; */
   font-weight: 10vw;
   width: 150px;
   height: 40px;
@@ -158,10 +158,10 @@ opacity: 1;
 }
 
 #quitbtn:hover {
-    /* background-color: black;
-  color: white; */
-  background-color: white;
-  color: black;
+    background-color: black;
+  color: white;
+  /* background-color: white;
+  color: black; */
   opacity: 1;
 }
 
