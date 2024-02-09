@@ -69,7 +69,7 @@ body {
   background: #353536;
   color: white;
   font-weight: 500;
-  font-size:medium;
+  font-size: medium;
   width: 100%;
   border: 1px solid #222;
   padding: 10px;
@@ -98,13 +98,15 @@ btn:disabled {
 }
 
 #nextbtn {
-    /* background-color: black;
-  color: white; */
-  background-color: white;
-  color: black;
-  font-weight: 10vw;
+  /* background: #353536; */
+
+  background-color: black;
+  color: white;
+ opacity: 0.9;
   width: 150px;
   height: 40px;
+  font-weight: 500;
+
   border: 0;
   padding: 10px;
   margin: 10px auto 0;
@@ -114,18 +116,13 @@ btn:disabled {
 }
 
 #nextbtn:hover {
-   /* background-color: white;
-  color: black; */
-   background-color: black;
-  color: white;
+  font-weight: 600;
   opacity: 1;
-
 }
 
 .playagainbtn {
-  /* background-color: #d33809;*/
-  background: rgb(85, 215, 133); 
-opacity: 0.8;
+  background: rgb(85, 215, 133);
+  opacity: 0.8;
   color: black;
   font-weight: 10vw;
   width: 150px;
@@ -138,19 +135,22 @@ opacity: 0.8;
   display: block;
 }
 .playagainbtn:hover {
-opacity: 1;
+  opacity: 1;
 }
 
 #quitbtn {
-  background-color: white;
-  color: black;
-    /* background-color: black;
-  color: white; */
-  font-weight: 10vw;
+  opacity: 0.9;
+  /* background-color: white;
+  color: black; */
+  background-color: black;
+  color: white;
+  /* font-weight: 10vw; */
   width: 150px;
   height: 40px;
   border: 0;
   padding: 10px;
+  font-weight: 500;
+
   margin: 10px auto 0;
   border-radius: 4px;
   cursor: pointer;
@@ -158,10 +158,7 @@ opacity: 1;
 }
 
 #quitbtn:hover {
-    background-color: black;
-  color: white;
-  /* background-color: white;
-  color: black; */
+  font-weight: 600;
   opacity: 1;
 }
 
@@ -169,21 +166,20 @@ opacity: 1;
   background: rgb(115, 188, 142);
   color: black;
 }
-.incorrect{
+.incorrect {
   background: #de2121;
   opacity: 0.8;
-
 }
 @media screen and (max-width: 900px) {
- .app {
+  .app {
     margin: 5vw 5vw 0vw;
     padding: vw 5vw 2vw;
     /* height: 490px; */
   }
-    .playagainbtn {
+  .playagainbtn {
     margin: 40px auto 0;
   }
-  .quiz h2{
+  .quiz h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
@@ -195,33 +191,27 @@ opacity: 1;
   .submitbtn {
     display: inline;
   }
-
-
 }
-
 
 @media screen and (max-width: 600px) {
   .btn {
-
-padding: 15px;
-  margin: 15px 0;
-
+    padding: 15px;
+    margin: 15px 0;
   }
   .app {
     margin: 10vw 5vw 0vw;
     padding: 7vw 5vw 2vw;
     height: 600px;
   }
-  #nextbtn{
-  margin: 15px auto 20px;
-
+  #nextbtn {
+    margin: 15px auto 20px;
   }
-  
+
   .playagainbtn {
     margin: 40px auto 0;
   }
 
-  .quiz h2{
+  .quiz h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
